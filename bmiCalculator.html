@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset='utf-8'>
+    <title>BMI calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <div id="form">
+        <p style="margin-left: -40px"> Hi! Welcome to the BMI calculator! </p>
+        <form method="POST" action="/bmicalculator">  <!-- sends/posts the results to /bmicalculator route-->
+            <label for ="height" style="margin-left:35px"> Height: </label><br>
+            <!-- input with a placeholder for height-->
+            <p><input type="text"  name="height" placeholder="Enter your height"></p> 
+            <label for ="weight" style="margin-left: 35px"  > Weight: </label><br>
+            <!-- input with a placeholder for weight-->
+            <p><input type="text"  name = "weight" placeholder="Enter your weight"></p>
+            <!-- button that triggers the action-->
+            <button type="submit" name="submit" style="margin-left:25px"> Calculate BMI </button>
+        </form>
+    </div>
+</body>
+</html>

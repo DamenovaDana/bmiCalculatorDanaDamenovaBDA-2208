@@ -1,0 +1,16 @@
+#form{
+    font-size: 20px;
+    border: 1px black solid;
+    margin-top:150px;
+    margin-left: 30%;
+    padding-left: 13%;
+    padding-top: 30px;
+    width: 25%;
+    height:400px;
+    background-color: white;
+}
+body{
+    background-image: url("img/bmi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

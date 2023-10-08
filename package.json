@@ -1,0 +1,19 @@
+{
+  "name": "bmi",
+  "version": "1.0.0",
+  "description": "1st assignment backend; bmi calculator on a server using express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamenovaDana/bmiCalculatorDanaDamenovaBDA-2208.git"
+  },
+  "author": "Damenova Dana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamenovaDana/bmiCalculatorDanaDamenovaBDA-2208/issues"
+  },
+  "homepage": "https://github.com/DamenovaDana/bmiCalculatorDanaDamenovaBDA-2208#readme"
+}
